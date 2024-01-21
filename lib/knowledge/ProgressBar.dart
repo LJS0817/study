@@ -72,7 +72,8 @@ class ProgressBar_Circle extends StatelessWidget {
                 ),
                 Positioned(
                   child: Transform.translate(
-                    offset: Offset(92.5 * math.cos(3 * math.pi / 2 + (math.pi * 2 * define.getProgress())), 92.5 * math.sin(3 * math.pi / 2 + (math.pi * 2 * define.getProgress()))),
+                    offset: Offset(92.5 * math.cos(3 * math.pi / 2 + (math.pi * 2 * define.getProgress())),
+                        92.5 * math.sin(3 * math.pi / 2 + (math.pi * 2 * define.getProgress()))),
                     child: Container(
                       width: 15,
                       height: 15,
