@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -13,11 +14,8 @@ class Define extends ChangeNotifier {
     notifyListeners();
   }
 
-  void Progressing() {
-    _progress = lerpDouble(0, 0.5, 0.01)!;
-    if(_progress > 1.00) {
-      _progress = 0;
-    }
+  void Progressing(double value) {
+    _progress = value;
     notifyListeners();
   }
 

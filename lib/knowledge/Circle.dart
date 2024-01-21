@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'dart:math' as math;
-
-import 'package:study/knowledge/define.dart';
 
 class Circle extends CustomPainter {
   double _value = 0;
